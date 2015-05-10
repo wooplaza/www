@@ -418,7 +418,7 @@ function jbst_navbar_customizer_options($wp_customize) {
 	
 
 	/* Navbar Color */
-	$wp_customize->add_setting( 'navbar_color', array(
+/*	$wp_customize->add_setting( 'navbar_color', array(
 	'default'        => 'default',
 	) );
 		
@@ -438,7 +438,7 @@ function jbst_navbar_customizer_options($wp_customize) {
 			'navbar-red' => 'Red Gradient',
 			'navbar-teal' => 'Teal Gradient',
 			),
-	) );
+	) );*/
 
 	/* Navbar Font Family */
     $wp_customize->add_setting( 'navbar_font_family', array(
